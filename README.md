@@ -19,7 +19,7 @@
 ## 🖼️ Screenshots
 <table>
   <tr>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/870ebb9f-9be4-4eef-b78d-b14fecd4a7ab)
+    <td><img src="customerscreenshot/![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/25689989-49e2-480f-9397-4b3760b0d85f)
 " width="250"/></td>
     <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (1)](https://github.com/user-attachments/assets/ab2c6213-35db-4965-b1c6-116bc309dcce)
 " width="250"/></td>
