@@ -48,11 +48,7 @@ git clone https://github.com/muneebsiddique58/pharmahub.git
 cd pharmahub
 🙋 Author
 Hamza Khalid
-
 Muneeb Siddique
-
 Ammar Zummurud
-
 Software Engineering Students – Capital University of Science and Technology
-
 📧 Email: muneebsiddique58@gmail.com
