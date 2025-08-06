@@ -16,7 +16,7 @@
 
 ---
 
-## 🖼️ Screenshots
+## 📱 App Screenshots (3x2 Grid)
 <table>
   <tr>
     <td><img src="customerscreenshot/![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/25689989-49e2-480f-9397-4b3760b0d85f)
