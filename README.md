@@ -20,8 +20,7 @@
 <table>
   <tr>
     <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.14.jpeg" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (1)](https://github.com/user-attachments/assets/ab2c6213-35db-4965-b1c6-116bc309dcce)
-" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.15%20(1).jpeg" width="250"/></td>
     <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (2)](https://github.com/user-attachments/assets/658f9a71-90fa-4567-a9ab-47a9da85f23e)
 " width="250"/></td>
   </tr>
