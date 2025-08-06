@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivPrescription"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/grey_200"
+            tools:src="@drawable/ic_prescription" />
+
+        <TextView
+            android:id="@+id/tvUploadDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uploaded:"
+            android:textSize="14sp"
+            android:textColor="@color/grey_600"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/ivPrescription"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvUploadDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@id/tvUploadDateLabel"
+            app:layout_constraintTop_toTopOf="@id/tvUploadDateLabel"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"
+            tools:text="May 7, 2025 10:30 AM" />
+
+        <TextView
+            android:id="@+id/tvStatusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="14sp"
+            android:textColor="@color/grey_600"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@id/tvUploadDateLabel"
+            app:layout_constraintTop_toBottomOf="@id/tvUploadDateLabel" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="4dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@id/tvStatusLabel"
+            app:layout_constraintTop_toTopOf="@id/tvStatusLabel"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"
+            tools:text="Active"
+            tools:textColor="@color/primaryColor" />
+
+        <TextView
+            android:id="@+id/tvValidUntil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/grey_600"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@id/tvStatusLabel"
+            app:layout_constraintTop_toBottomOf="@id/tvStatusLabel"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"
+            android:text="Tap to view details" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/g_red"
+            android:contentDescription="Delete prescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

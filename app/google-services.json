@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "431806185268",
+    "project_id": "pharmahub19-7e3c8",
+    "storage_bucket": "pharmahub19-7e3c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431806185268:android:eaba51be3862611378af61",
+        "android_client_info": {
+          "package_name": "com.example.pharmahub11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431806185268-dosmj2t86a5hhnk2n8a77mmbne1cr493.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pharmahub11",
+            "certificate_hash": "484e5970f95e323ebeb8f4fc25f1edd7fac9436f"
+          }
+        },
+        {
+          "client_id": "431806185268-j2m7ra31hgdt73irp0mtc4f194d0ck4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5DwdZcS2nNbxAau1fZcfDOdCrFzRmXb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431806185268-j2m7ra31hgdt73irp0mtc4f194d0ck4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

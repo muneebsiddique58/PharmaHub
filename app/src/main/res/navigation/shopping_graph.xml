@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopping_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_locationFragment"
+            app:destination="@id/locationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.CartFragment"
+        android:label="CartFragment"
+        tools:layout="@layout/fragment_cart">
+        <argument
+            android:name="returnToCheckout"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="productIds"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_cartFragment_to_prescriptionFragment"
+            app:destination="@id/prescriptionFragment">
+            <argument
+                android:name="productIds"
+                app:argType="string[]"
+                app:nullable="true"
+                android:defaultValue="@null" />
+            <argument
+                android:name="products"
+                app:argType="com.example.pharmahub11.data.CartProduct[]"
+                app:nullable="true"
+                android:defaultValue="@null" />
+            <argument
+                android:name="returnToCheckout"
+                app:argType="boolean"
+                android:defaultValue="true" />
+            <argument
+                android:name="totalPrice"
+                app:argType="float"
+                android:defaultValue="0.0" />
+        </action>
+        <action
+            android:id="@+id/action_cartFragment_to_billingFragment"
+            app:destination="@id/billingFragment" />
+        <action
+            android:id="@+id/action_cartFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_userAccountFragment"
+            app:destination="@id/userAccountFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_ordersFragment"
+            app:destination="@id/ordersFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_billingFragment"
+            app:destination="@id/billingFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_prescriptionFragment"
+            app:destination="@id/prescriptionFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+        <argument
+            android:name="paymentMethod"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_profileFragment_to_customerServiceFragment"
+            app:destination="@id/customerServiceFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_usedPrescriptionsFragment"
+            app:destination="@id/usedPrescriptionsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.ProductDetailsFragment"
+        android:label="ProductDetailsFragment"
+        tools:layout="@layout/fragment_product_details">
+        <argument
+            android:name="product"
+            app:argType="com.example.pharmahub11.data.Product" />
+        <action
+            android:id="@+id/action_productDetailsFragment_to_prescriptionFragment"
+            app:destination="@id/prescriptionFragment" />
+        <action
+            android:id="@+id/action_productDetailsFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.AddressFragment"
+        android:label="AddressFragment"
+        tools:layout="@layout/fragment_address">
+        <argument
+            android:name="address"
+            app:argType="com.example.pharmahub11.data.Address"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/billingFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.BillingFragment"
+        android:label="BillingFragment"
+        tools:layout="@layout/fragment_billing">
+        <action
+            android:id="@+id/action_billingFragment_to_ordersFragment"
+            app:destination="@id/ordersFragment"
+            app:popUpTo="@id/cartFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_billingFragment_to_addressFragment"
+            app:destination="@id/addressFragment" />
+        <argument
+            android:name="prescriptionIds"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="prescriptionData"
+            app:argType="com.example.pharmahub11.data.PrescriptionData[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="totalPrice"
+            app:argType="float" />
+        <argument
+            android:name="payment"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <argument
+            android:name="products"
+            app:argType="com.example.pharmahub11.data.CartProduct[]" />
+        <argument
+            android:name="isPrescriptionVerified"
+            app:argType="boolean" />
+        <!-- In your navigation graph XML -->
+        <argument
+            android:name="prescriptionId"
+            app:argType="string"
+            android:defaultValue="null" />
+        <argument
+            android:name="prescriptionImageUrl"
+            app:argType="string"
+            android:defaultValue="null" />
+        <action
+            android:id="@+id/action_billingFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userAccountFragment"
+        android:name="com.example.pharmahub11.fragments.settings.UserAccountFragment"
+        android:label="UserAccountFragment" />
+
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.example.pharmahub11.fragments.settings.AllOrdersFragment"
+        android:label="OrdersFragment">
+        <action
+            android:id="@+id/action_ordersFragment_to_orderDetailFragment"
+            app:destination="@id/orderDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.example.pharmahub11.fragments.settings.OrderDetailFragment"
+        android:label="OrderDetailFragment">
+        <argument
+            android:name="order"
+            app:argType="com.example.pharmahub11.data.order.Order" />
+
+        <action
+            android:id="@+id/action_orderDetailFragment_to_addReviewFragment"
+            app:destination="@id/addReviewFragment">
+        <argument
+            android:name="productId"
+            app:argType="string" />
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/prescriptionFragment"
+        android:name="com.example.pharmahub11.prescriptions.PrescriptionFragment"
+        android:label="My Prescriptions"
+        tools:layout="@layout/fragment_prescription">
+
+        <argument
+            android:name="returnToCheckout"
+            app:argType="boolean"
+            android:defaultValue="false"/>
+        <argument
+            android:name="productIds"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+        <argument
+            android:name="products"
+            app:argType="com.example.pharmahub11.data.CartProduct[]"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+        <argument
+            android:name="totalPrice"
+            app:argType="float"
+            android:defaultValue="0.0"/>
+
+        <action
+            android:id="@+id/action_prescriptionFragment_to_billingFragment"
+            app:destination="@id/billingFragment">
+            <argument
+                android:name="products"
+                app:argType="com.example.pharmahub11.data.CartProduct[]"/>
+            <argument
+                android:name="totalPrice"
+                app:argType="float"/>
+            <argument
+                android:name="isPrescriptionVerified"
+                app:argType="boolean"
+                android:defaultValue="true"/>
+            <argument
+                android:name="prescriptionData"
+                app:argType="com.example.pharmahub11.data.PrescriptionData[]"
+                app:nullable="true"/>
+            <argument
+                android:name="prescriptionIds"
+                app:argType="string[]"
+                app:nullable="true"/>
+        </action>
+
+        <action
+            android:id="@+id/action_prescriptionFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.pharmahub11.locations.LocationFragment"
+        android:label="LocationFragment" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_billingFragment"
+            app:destination="@id/billingFragment" />
+        <argument
+            android:name="paymentMethod"
+            app:argType="string" />
+
+        <argument
+            android:name="products"
+            app:argType="com.example.pharmahub11.data.CartProduct[]" />
+        <argument
+            android:name="totalPrice"
+            app:argType="float" />
+        <argument
+            android:name="address"
+            app:argType="com.example.pharmahub11.data.Address" />
+        <action
+            android:id="@+id/action_paymentFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerServiceFragment"
+        android:name="com.example.pharmahub11.fragments.settings.CustomerServiceFragment"
+        android:label="CustomerServiceFragment" >
+        <action
+            android:id="@+id/action_customerServiceFragment_to_appSupportChatFragment"
+            app:destination="@id/appSupportChatFragment" />
+        <action
+            android:id="@+id/action_customerServiceFragment_to_orderListFragment"
+            app:destination="@id/orderListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appSupportChatFragment"
+        android:name="com.example.pharmahub11.fragments.settings.AppSupportChatFragment"
+        android:label="AppSupportChatFragment" />
+    <fragment
+        android:id="@+id/orderListFragment"
+        android:name="com.example.pharmahub11.fragments.settings.OrderListFragment"
+        android:label="fragment_order_list"
+        tools:layout="@layout/fragment_order_list" >
+        <action
+            android:id="@+id/action_orderListFragment_to_orderSupportChatFragment3"
+            app:destination="@id/orderSupportChatFragment3">
+            <argument android:name="orderId" app:argType="string"/>
+            <argument android:name="pharmacyName" app:argType="string"/>
+            <argument android:name="pharmacistId" app:argType="string"/>
+        </action>
+
+    </fragment>
+    <fragment
+        android:id="@+id/orderSupportChatFragment3"
+        android:name="com.example.pharmahub11.fragments.settings.OrderSupportChatFragment"
+        android:label="OrderSupportChatFragment" />
+    <action
+        android:id="@+id/action_orderListFragmentToOrderSupportChatFragment3"
+        app:destination="@id/orderSupportChatFragment3">
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+    </action>
+    <fragment
+        android:id="@+id/usedPrescriptionsFragment"
+        android:name="com.example.pharmahub11.prescriptions.UsedPrescriptionsFragment"
+        android:label="fragment_used_prescriptions"
+        tools:layout="@layout/fragment_used_prescriptions" />
+    <fragment
+        android:id="@+id/addReviewFragment"
+        android:name="com.example.pharmahub11.fragments.shopping.AddReviewFragment"
+        android:label="fragment_add_review"
+        tools:layout="@layout/fragment_add_review">
+        <argument
+            android:name="productId"
+            app:argType="string" />
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+    </fragment>
+
+
+
+</navigation>

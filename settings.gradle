@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials {
+                username = "mapbox"
+                password = "pk.eyJ1IjoiaGstYjUiLCJhIjoiY205OWg2ZzE4MDRydTJqczN3ZmI3OXg4aCJ9.6c3OQ20nFvgn2cSKKBZIiQ"
+            }
+        }
+        jcenter()
+    }
+}
+rootProject.name = "pharmahub11"
+include ':app'

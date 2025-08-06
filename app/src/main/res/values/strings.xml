@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">PharmaHub</string>
+    <string name="rightAddress">The Right Address\nFor Medicines\nEveryday</string>
+    <string name="qulity">Now it\'s easier than ever to find\nhigh-quality medicines\nright at your fingertips!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="support_header">Need Help?</string>
+    <string name="app_support">Application Support</string>
+    <string name="order_support">Order Support</string>
+    <string name="submit_complaint">Submit Complaint</string>
+    <string name="complaint_hint">Describe your issue...</string>
+    <string name="quick_messages">Quick Messages:</string>
+    <string name="quick_message_app">App not working</string>
+    <string name="quick_message_payment">Payment issue</string>
+    <string name="quick_message_delivery">Delivery issue</string>
+    <string name="submit_complaint_button">Submit Complaint</string>
+    <string name="back">Back</string>
+    <string name="prescription_upload_success">Prescription uploaded successfully</string>
+    <string name="prescription_delete_success">Prescription deleted successfully</string>
+    <string name="quick_message_inserted">Quick message inserted</string>
+    <string name="select">Select</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="prescription_history">Prescription History</string>
+    <string name="used">Used</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="cancelled">Cancelled</string>
+
+    <string name="order_status_ready_for_delivery">Ready for Delivery</string>
+    <string name="delete_item_confirmation">Are you sure you want to delete this item?</string>
+    <string name="prescription_not_approved">Please wait for prescription approval before checkout</string>
+    <string name="checkout">Checkout</string>
+    <string name="used_prescriptions">Used Prescriptions</string>
+    <string name="no_prescriptions">No Used Prescriptions</string>
+    <string name="no_prescriptions_description">You have no used prescriptions yet.</string>
+    <string name="order_status_ordered">Ordered</string>
+    <string name="order_status_paid">Paid</string>
+    <string name="order_status_pending">Pending</string>
+    <string name="order_status_confirmed">Confirmed</string>
+    <string name="checking_prescription">Checking prescription status...</string>
+    <string name="prescription_error">Error loading prescription</string>
+
+    <string name="waiting_approval">Waiting for Approval</string>
+    <string name="prescription_rejected">Prescription Rejected</string>
+
+
+    <string name="close">Close</string>
+    <string name="product_image">Product Image</string>
+    <string name="decrease_quantity">Decrease Quantity</string>
+    <string name="increase_quantity">Increase Quantity</string>
+    <string name="prescription_uploaded">Prescription uploaded</string>
+    <string name="prescription_required">Prescription required</string>
+    <string name="order_status_processing">Processing</string>
+    <string name="order_status_shipped">Shipped</string>
+    <string name="order_status_delivered">Delivered</string>
+    <string name="order_status_cancelled">Cancelled</string>
+    <string name="desc_prescription_image">Prescription Image</string>
+    <string name="upload_new_prescription">Upload New Prescription</string>
+    <string name="select_prescription">Select Prescription</string>
+    <string name="upload_new">Upload New</string>
+
+    <string name="no_additional_notes">No additional notes</string>
+    <string name="prescription_id_format">RX-%s</string>
+    <string name="prescription_image_desc">Prescription image</string>
+
+    <string name="quick_message_delivery_issue">There\'s a problem with my delivery</string>
+    <string name="error_empty_complaint">Please describe your issue</string>
+    <string name="error_short_complaint">Please provide more details (minimum 10 characters)</string>
+    <string name="success_complaint_submitted">Complaint submitted successfully</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    <string name="delete">Delete</string>
+    <string name="auth_required">Authentication required</string>
+    <string name="quick_message_app_issue">I\'m having issues with the app not working properly</string>
+    <string name="quick_message_payment_issue">I\'m experiencing payment issues</string>
+    <string name="camera_error">Could not access camera</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="order_number">Order #%1$s</string>
+    <string name="price_format">$%.2f</string>
+    <string name="image_mime_type">image/*</string>
+    <string name="prescription_file_prefix">prescription_%d</string>
+    <string name="image_file_extension">.jpg</string>
+    <string name="provider_suffix">.provider</string>
+    <string name="prescription_upload_key">prescriptionUploaded</string>
+    <string name="prescription_deleted_successfully">Prescription deleted successfully</string>
+    <string name="error_loading_prescriptions">Failed to load prescriptions</string>
+    <string name="prescription_deleted">Prescription deleted</string>
+    <string name="user_not_authenticated">User not authenticated</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="no_prescriptions_found">No prescriptions found</string>
+    <string name="delete_prescription">Delete Prescription</string>
+    <string name="delete_prescription_confirmation">Are you sure you want to delete this prescription?</string>
+    <string name="uploaded_date">Uploaded: %s</string>
+    <string name="prescription_required_title">Prescription Required</string>
+    <string name="channel_name">PharmaHub Notifications</string>
+    <string name="channel_description">App notifications for login, products and more</string>
+    <string name="prescription_required_message">The following items require a valid prescription:\n\n%s\n\nPlease upload your prescription to proceed.</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="remove_items">Remove Items</string>
+    <string name="cancel">Cancel</string>
+    <string name="prescription_items_removed">Prescription items removed from cart</string>
+    <string name="delete_item_title">Delete item from cart</string>
+    <string name="delete_item_message">Do you want to delete this item from your cart?</string>
+    <string name="yes">Yes</string>
+    <string name="back_button">Back button</string>
+    <string name="search_icon">Search icon</string>
+    <string name="search_pharmacies">Search for pharmacies...</string>
+    <string name="current_location">Current Location</string>
+    <string name="loading_address">Loading address...</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiaGstYjUiLCJhIjoiY205OWg2ZzE4MDRydTJqczN3ZmI3OXg4aCJ9.6c3OQ20nFvgn2cSKKBZIiQ</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+</resources>
