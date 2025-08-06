@@ -17,7 +17,9 @@
 ---
 
 ## 🖼️ Screenshots
-> Create a `screenshots` folder in your repo and place image files inside it.
+### 📱 Home Screen
+![Home Screen](screenshots/![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/fc56dcd5-1137-4975-9cd5-7346fe989596)
+)
 
 ---
 
