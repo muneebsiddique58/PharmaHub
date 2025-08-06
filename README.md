@@ -26,7 +26,7 @@
   <tr>
     <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.15.jpeg" width="250"/></td>
     <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.16%20(1).jpeg" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 16](https://github.com/user-attachments/assets/9900f6f2-a783-48a9-8817-9af07b82ea15)" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.16.jpeg" width="250"/></td>
   </tr>
 </table>
 
