@@ -19,9 +19,12 @@
 ## 🖼️ Screenshots
 <table>
   <tr>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/08bdff4b-3da4-45b9-b9cb-6c6a5b0e7109)" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (1)](https://github.com/user-attachments/assets/5141f956-fc54-40bd-a9d0-6eb70e698dfa)" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (2)](https://github.com/user-attachments/assets/8e48e2a6-b80d-427d-9f1c-2b7db5429b06)" width="250"/></td>
+    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/870ebb9f-9be4-4eef-b78d-b14fecd4a7ab)
+" width="250"/></td>
+    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (1)](https://github.com/user-attachments/assets/ab2c6213-35db-4965-b1c6-116bc309dcce)
+" width="250"/></td>
+    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (2)](https://github.com/user-attachments/assets/658f9a71-90fa-4567-a9ab-47a9da85f23e)
+" width="250"/></td>
   </tr>
   <tr>
     <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15](https://github.com/user-attachments/assets/b0782bb5-0995-46c5-a386-5fc3200696cd)" width="250"/></td>
