@@ -16,20 +16,17 @@
 
 ---
 
-## 🖼️ Screenshots
+## 📱 App Screenshots 
 <table>
   <tr>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 14](https://github.com/user-attachments/assets/870ebb9f-9be4-4eef-b78d-b14fecd4a7ab)
-" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (1)](https://github.com/user-attachments/assets/ab2c6213-35db-4965-b1c6-116bc309dcce)
-" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15 (2)](https://github.com/user-attachments/assets/658f9a71-90fa-4567-a9ab-47a9da85f23e)
-" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.14.jpeg" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.15%20(1).jpeg" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.15%20(2).jpeg" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 15](https://github.com/user-attachments/assets/b0782bb5-0995-46c5-a386-5fc3200696cd)" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 16 (1)](https://github.com/user-attachments/assets/76da6773-814d-401f-a08d-0a6e601d3adb)" width="250"/></td>
-    <td><img src="![WhatsApp Image 2025-08-06 at 12 17 16](https://github.com/user-attachments/assets/9900f6f2-a783-48a9-8817-9af07b82ea15)" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.15.jpeg" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.16%20(1).jpeg" width="250"/></td>
+    <td><img src="https://github.com/muneebsiddique58/PharmaHub/blob/main/customerscrenshot/WhatsApp%20Image%202025-08-06%20at%2012.17.16.jpeg" width="250"/></td>
   </tr>
 </table>
 
